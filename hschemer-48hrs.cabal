@@ -30,7 +30,7 @@ library
   build-depends:
       base >= 4.7 && < 5
     , parsec
-    , mtl == 2.2.1
+    , mtl
   exposed-modules:
       Lib
   default-language: Haskell2010
@@ -43,7 +43,7 @@ executable hschemer-48hrs-exe
   build-depends:
       base >= 4.7 && < 5
     , parsec
-    , mtl == 2.2.1
+    , mtl
     , hschemer-48hrs
   default-language: Haskell2010
 
@@ -56,6 +56,6 @@ test-suite hschemer-48hrs-test
   build-depends:
       base >= 4.7 && < 5
     , parsec
-    , mtl == 2.2.1
+    , mtl
     , hschemer-48hrs
   default-language: Haskell2010
